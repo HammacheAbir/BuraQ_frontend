@@ -9,16 +9,16 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const Demo = () => {
+const DemoPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
+        pageName="Demonstration Page"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
       />
-      <Demo />
+      <DemoComp />
     </>
   );
 };
 
-export default Demo;
+export default DemoPage;
